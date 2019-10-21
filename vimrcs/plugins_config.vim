@@ -34,10 +34,10 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 " => YankStack
 """"""""""""""""""""""""""""""
-let g:yankstack_yank_keys = ['y', 'd']
+" let g:yankstack_yank_keys = ['y', 'd']
 
-nmap <c-p> <Plug>yankstack_substitute_older_paste
-nmap <c-n> <Plug>yankstack_substitute_newer_paste
+" nmap <c-p> <Plug>yankstack_substitute_older_paste
+" nmap <c-n> <Plug>yankstack_substitute_newer_paste
 
 
 """"""""""""""""""""""""""""""
@@ -150,7 +150,7 @@ nnoremap <silent> <leader>z :Goyo<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vim-go
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:go_fmt_command = "goimports"
+" let g:go_fmt_command = "goimports"
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
