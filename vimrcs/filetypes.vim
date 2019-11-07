@@ -75,3 +75,8 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+""""""""""""""""""""""""""""""
+" => Flex section
+""""""""""""""""""""""""""""""
+autocmd BufRead *.flex set syntax=lex filetype=lex
