@@ -79,4 +79,13 @@ autocmd BufRead *.twig set syntax=html filetype=html
 """"""""""""""""""""""""""""""
 " => Flex section
 """"""""""""""""""""""""""""""
-autocmd BufRead *.flex set syntax=lex filetype=lex
+autocmd BufRead,BufNewFile *.flex set syntax=lex filetype=lex
+
+""""""""""""""""""""""""""""""
+" => Cool section
+" from: https://www.vim.org/scripts/script.php?script_id=1216
+""""""""""""""""""""""""""""""
+if !empty(glob("~/.vim/syntax/cool.vim"))
+    autocmd BufRead,BufNewFile *.cl set syntax=cool filetype=cool
+    autocmd BufRead,BufNewFile *.cool set syntax=cool filetype=cool
+endif
